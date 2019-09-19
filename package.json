@@ -1,0 +1,39 @@
+{
+  "name": "react-offline-messanger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline browser messenger",
+  "scripts": {
+    "eslint": "eslint src/**/*.js src/**/*.jsx",
+    "test": "npm run eslint",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
+    "@types/prop-types": "15.7.2",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "eslint": "6.4.0",
+    "eslint-config-htmlacademy": "0.5.2",
+    "eslint-plugin-react": "7.14.3",
+    "source-map-loader": "0.2.4",
+    "style-loader": "1.0.0",
+    "webpack": "4.40.2",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.8.1"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "proptypes": "1.1.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
+}

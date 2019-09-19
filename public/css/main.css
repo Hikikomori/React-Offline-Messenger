@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  background-image: url('../img/dust_scratches.png');
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.sign-in {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.4);
+}
+
+.sign-in__inner {
+  box-shadow: 0 15px 46px -7px rgba(255, 255, 255, 0.5);
+  background-image: url('../img/dust_scratches.png');
+  border-radius: 15px;
+}

@@ -1,0 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from "./components/app/app";
+
+ReactDOM.render(
+  <App/>,
+  document.querySelector(`#root`)
+);
